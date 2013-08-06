@@ -33,18 +33,7 @@ NSString *const kTestNotification2 = @"TEST_NOTIFICATION2";
 @implementation NSNotificationCenter(PW_RAC_EXTENSION)
 
 -(RACSignal *)pw_rac_addOneShotObserverForName:(NSString *)name object:(id)object{
-    return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber){
-        RACSignal *inner_signal = [[NSNotificationCenter defaultCenter] rac_addObserverForName:name object:object];
-        
-        RACDisposable *inner_signal_disposer = [inner_signal subscribeNext:^(NSNotification *notification){
-            [subscriber sendNext:notification];
-            [subscriber sendCompleted];
-        }];
-        
-        return [RACDisposable disposableWithBlock:^{
-            [inner_signal_disposer dispose];
-        }];
-    }];
+    return [[[NSNotificationCenter defaultCenter] rac_addObserverForName:name object:object] take:1];        
 }
 
 @end
@@ -110,7 +99,7 @@ NSString *const kTestNotification2 = @"TEST_NOTIFICATION2";
     
     __block BOOL hitComplete = NO;
 
-    RACDisposable *disposer = [merged subscribeNext:^(NSNotification *notification){
+    [merged subscribeNext:^(NSNotification *notification){
         
     }
                 completed:^{
@@ -131,7 +120,7 @@ NSString *const kTestNotification2 = @"TEST_NOTIFICATION2";
     
     __block BOOL hitComplete = NO;
     
-    RACDisposable *disposer = [merged subscribeNext:^(NSNotification *notification){
+    [merged subscribeNext:^(NSNotification *notification){
         
     }
                                           completed:^{
