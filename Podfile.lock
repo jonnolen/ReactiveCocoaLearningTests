@@ -1,0 +1,38 @@
+PODS:
+  - JRSwizzle (1.0)
+  - libextobjc/EXTConcreteProtocol (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.2.5)
+  - MRCEnumerable (0.1.1)
+  - OCMock (2.0.1)
+  - ReactiveCocoa (1.9.6):
+    - ReactiveCocoa/Core
+    - ReactiveCocoa/RACExtensions
+  - ReactiveCocoa/Core (1.9.6):
+    - JRSwizzle (~> 1.0)
+    - libextobjc/EXTConcreteProtocol (~> 0.2.5)
+    - libextobjc/EXTKeyPathCoding (~> 0.2.5)
+    - libextobjc/EXTScope (~> 0.2.5)
+  - ReactiveCocoa/RACExtensions (1.9.6):
+    - ReactiveCocoa/Core
+  - TestFlightSDK (1.1)
+
+DEPENDENCIES:
+  - MRCEnumerable
+  - OCMock (= 2.0.1)
+  - ReactiveCocoa
+  - TestFlightSDK (= 1.1)
+
+SPEC CHECKSUMS:
+  JRSwizzle: 6242ff38485d870fc2636899048ee1ab883ae587
+  libextobjc: 2cbc74caf8bdc74a86fdf24673f773c83424ea98
+  MRCEnumerable: d0a1f19dd32d9be3f2a53258710a2825a28c3ab3
+  OCMock: f0c099603f851d07f8d7f2efe26d05da721ec43f
+  ReactiveCocoa: 0586996422c05830e2f70ca8c8a5214e9070983f
+  TestFlightSDK: 2a2cdb82967c7f05655683c61854c92d36e9104d
+
+COCOAPODS: 0.22.3

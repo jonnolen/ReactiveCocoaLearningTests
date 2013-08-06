@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24D99EFB918840D6A9F2AB6C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3876A050AE6A4B82A3ABAE63 /* libPods.a */; };
+		E7C2C1D3861F4670B9CEFD6C /* libPods-rac_signal_testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E45ECBD8B254AD5B4B8E399 /* libPods-rac_signal_testTests.a */; };
 		FC28025C17A7ED9000A9C0D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC28025B17A7ED9000A9C0D9 /* UIKit.framework */; };
 		FC28025E17A7ED9000A9C0D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC28025D17A7ED9000A9C0D9 /* Foundation.framework */; };
 		FC28026017A7ED9000A9C0D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC28025F17A7ED9000A9C0D9 /* CoreGraphics.framework */; };
@@ -41,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3876A050AE6A4B82A3ABAE63 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		712511B4E4E14425AE2A5DF9 /* Pods-rac_signal_testTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rac_signal_testTests.xcconfig"; path = "Pods/Pods-rac_signal_testTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		835940A9D7C64AE090C2F274 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		8E45ECBD8B254AD5B4B8E399 /* libPods-rac_signal_testTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rac_signal_testTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC28025817A7ED9000A9C0D9 /* rac_signal_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rac_signal_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC28025B17A7ED9000A9C0D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FC28025D17A7ED9000A9C0D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +72,6 @@
 		FC28028A17A7ED9000A9C0D9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		FC28029217A7ED9000A9C0D9 /* rac_signal_testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rac_signal_testTests-Info.plist"; sourceTree = "<group>"; };
 		FC28029417A7ED9000A9C0D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FC28029617A7ED9000A9C0D9 /* rac_signal_testTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rac_signal_testTests.h; sourceTree = "<group>"; };
 		FC28029717A7ED9000A9C0D9 /* rac_signal_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rac_signal_testTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +83,7 @@
 				FC28025C17A7ED9000A9C0D9 /* UIKit.framework in Frameworks */,
 				FC28025E17A7ED9000A9C0D9 /* Foundation.framework in Frameworks */,
 				FC28026017A7ED9000A9C0D9 /* CoreGraphics.framework in Frameworks */,
+				24D99EFB918840D6A9F2AB6C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +94,7 @@
 				FC28028B17A7ED9000A9C0D9 /* SenTestingKit.framework in Frameworks */,
 				FC28028C17A7ED9000A9C0D9 /* UIKit.framework in Frameworks */,
 				FC28028D17A7ED9000A9C0D9 /* Foundation.framework in Frameworks */,
+				E7C2C1D3861F4670B9CEFD6C /* libPods-rac_signal_testTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +108,8 @@
 				FC28029017A7ED9000A9C0D9 /* rac_signal_testTests */,
 				FC28025A17A7ED9000A9C0D9 /* Frameworks */,
 				FC28025917A7ED9000A9C0D9 /* Products */,
+				835940A9D7C64AE090C2F274 /* Pods.xcconfig */,
+				712511B4E4E14425AE2A5DF9 /* Pods-rac_signal_testTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +129,8 @@
 				FC28025D17A7ED9000A9C0D9 /* Foundation.framework */,
 				FC28025F17A7ED9000A9C0D9 /* CoreGraphics.framework */,
 				FC28028A17A7ED9000A9C0D9 /* SenTestingKit.framework */,
+				3876A050AE6A4B82A3ABAE63 /* libPods.a */,
+				8E45ECBD8B254AD5B4B8E399 /* libPods-rac_signal_testTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,7 +178,6 @@
 		FC28029017A7ED9000A9C0D9 /* rac_signal_testTests */ = {
 			isa = PBXGroup;
 			children = (
-				FC28029617A7ED9000A9C0D9 /* rac_signal_testTests.h */,
 				FC28029717A7ED9000A9C0D9 /* rac_signal_testTests.m */,
 				FC28029117A7ED9000A9C0D9 /* Supporting Files */,
 			);
@@ -190,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC28029B17A7ED9000A9C0D9 /* Build configuration list for PBXNativeTarget "rac_signal_test" */;
 			buildPhases = (
+				EBC71C1D51984ABD98B620CD /* Check Pods Manifest.lock */,
 				FC28025417A7ED9000A9C0D9 /* Sources */,
 				FC28025517A7ED9000A9C0D9 /* Frameworks */,
 				FC28025617A7ED9000A9C0D9 /* Resources */,
+				6C059766683E4CCABAE60ABA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,10 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC28029E17A7ED9000A9C0D9 /* Build configuration list for PBXNativeTarget "rac_signal_testTests" */;
 			buildPhases = (
+				28686161DA664A4A80BDCC89 /* Check Pods Manifest.lock */,
 				FC28028417A7ED9000A9C0D9 /* Sources */,
 				FC28028517A7ED9000A9C0D9 /* Frameworks */,
 				FC28028617A7ED9000A9C0D9 /* Resources */,
 				FC28028717A7ED9000A9C0D9 /* ShellScript */,
+				269D45D3274C4B35B4FD41EB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,6 +293,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		269D45D3274C4B35B4FD41EB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-rac_signal_testTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28686161DA664A4A80BDCC89 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C059766683E4CCABAE60ABA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC71C1D51984ABD98B620CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		FC28028717A7ED9000A9C0D9 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,6 +485,7 @@
 		};
 		FC28029C17A7ED9000A9C0D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835940A9D7C64AE090C2F274 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rac_signal_test/rac_signal_test-Prefix.pch";
@@ -422,6 +497,7 @@
 		};
 		FC28029D17A7ED9000A9C0D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835940A9D7C64AE090C2F274 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rac_signal_test/rac_signal_test-Prefix.pch";
@@ -433,6 +509,7 @@
 		};
 		FC28029F17A7ED9000A9C0D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712511B4E4E14425AE2A5DF9 /* Pods-rac_signal_testTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rac_signal_test.app/rac_signal_test";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -450,6 +527,7 @@
 		};
 		FC2802A017A7ED9000A9C0D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712511B4E4E14425AE2A5DF9 /* Pods-rac_signal_testTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rac_signal_test.app/rac_signal_test";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -484,6 +562,7 @@
 				FC28029D17A7ED9000A9C0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC28029E17A7ED9000A9C0D9 /* Build configuration list for PBXNativeTarget "rac_signal_testTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +571,7 @@
 				FC2802A017A7ED9000A9C0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
